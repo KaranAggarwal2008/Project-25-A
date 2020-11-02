@@ -14,9 +14,9 @@ const Engine = Matter.Engine;
 			   paperObject=new paper(200,450,40);
 				groundObject=new ground(width/2,670,width,20);
 				 //Create a Ground 
-				//var render = Render.create({ element: document.body, engine: engine, options: { width: 1200, height: 700, wireframes: false } });
+				var render = Render.create({ element: document.body, engine: engine, options: { width: 1200, height: 700, wireframes: false } });
 				Engine.run(engine); 
-				//Render.run(render);
+				Render.run(render);
 				 } 
 				 function draw() { 
 					 rectMode(CENTER); 
